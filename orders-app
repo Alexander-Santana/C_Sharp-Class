@@ -1,0 +1,97 @@
+namespace Orders
+{
+    public partial class btnDisplayOrder : Form
+    {
+        public btnDisplayOrder()
+        {
+            InitializeComponent(); // this part loads the form's elements
+        }
+
+        // this method runs when the 'Place Order' button is clicked
+        private void orderButton_Click(object sender, EventArgs e)
+        {
+            // Retrieve the quantity from the TextBox - get the number entered by the user
+            string quantity = quantityOrdered.Text;
+
+            // Check if the user entered a valid number (parse it as an integer)
+            if (int.TryParse(quantity, out int parsedQuantity) && parsedQuantity > 0)
+            {
+                // If the number is valid, open a file called "Orders.txt" to save the order
+                // StreamWriter is used to write to files
+                using (StreamWriter writer = new StreamWriter("Orders.txt", true))
+                {
+                    writer.WriteLine(parsedQuantity); // write the quantity to the file
+                }
+
+                // Show a message to let the user know the order was placed
+                MessageBox.Show("Order placed.");
+                
+                // Clear the textbox after placing the order so the user can enter a new quantity
+                quantityOrdered.Clear(); 
+            }
+            else
+            {
+                // if the user entered something that is not a valid number
+                MessageBox.Show("Please enter a valid quantity."); // tell the user to fix it
+            }
+        }
+
+        // this method runs when the 'Display Order' button is clicked
+        private void displayButton_Click(object sender, EventArgs e)
+        {
+            // Clear the ListBox before displaying the new set of orders
+            ordersListBox.Items.Clear(); 
+
+            int orderNumber = 1; // Start numbering orders from 1
+            int totalQuantity = 0; // We'll use this to keep track of the total amount ordered
+
+            try
+            {
+                // Open the "Orders.txt" file to read the quantities entered earlier
+                using (StreamReader reader = new StreamReader("Orders.txt"))
+                {
+                    string line;
+                    // Read each line from the file (each line represents an order)
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        // Try to convert the line to a number (quantity)
+                        if (int.TryParse(line, out int quantity))
+                        {
+                            // Add each order with its number to the ListBox
+                            ordersListBox.Items.Add($"Order # {orderNumber}: {quantity}");
+                            
+                            // Add the quantity to the total
+                            totalQuantity += quantity;
+                            
+                            // increase the order number for the next one
+                            orderNumber++;
+                        }
+                    }
+                }
+
+                // After reading all orders, show the total quantity ordered
+                ordersListBox.Items.Add($"Total Quantity: {totalQuantity}");
+            }
+            catch (FileNotFoundException)
+            {
+                // if there's no file, it means no orders were placed yet
+                MessageBox.Show("No orders found. Please place an order first.");
+            }
+        }
+
+        // this method runs when the 'Clear' button is clicked
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // clear both the TextBox and the ListBox
+            quantityOrdered.Clear();
+            ordersListBox.Items.Clear();
+        }
+
+        // this method runs when the 'Exit' button is clicked
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form and exit the program
+            this.Close();
+        }
+    }
+}
