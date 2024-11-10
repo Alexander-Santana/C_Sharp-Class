@@ -1,0 +1,16 @@
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\bin\Debug\net8.0-windows\MickeysPizza.exe
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\bin\Debug\net8.0-windows\MickeysPizza.deps.json
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\bin\Debug\net8.0-windows\MickeysPizza.runtimeconfig.json
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\bin\Debug\net8.0-windows\MickeysPizza.dll
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\bin\Debug\net8.0-windows\MickeysPizza.pdb
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.Form1.resources
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.csproj.GenerateResource.cache
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.GeneratedMSBuildEditorConfig.editorconfig
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.AssemblyInfoInputs.cache
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.AssemblyInfo.cs
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.csproj.CoreCompileInputs.cache
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.dll
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\refint\MickeysPizza.dll
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.pdb
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\MickeysPizza.genruntimeconfig.cache
+D:\RCCC\RCCC-Fall_2024\CSC-153_C# Programming\SantanaAlexander_C6\MickeysPizza\MickeysPizza\obj\Debug\net8.0-windows\ref\MickeysPizza.dll
