@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StudentDataEncryption/1.0.0": {
+        "runtime": {
+          "StudentDataEncryption.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudentDataEncryption/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
